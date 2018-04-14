@@ -1,0 +1,15 @@
+{
+  "name": "ich",
+  "version": "0.0.1",
+  "description": "Utilities.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tstelzer/ich.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tstelzer/ich/issues"
+  },
+  "author": "Timm Stelzer",
+  "license": "MIT"
+}
