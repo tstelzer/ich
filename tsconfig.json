@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": ["es2018", "esnext"],
+        "declarationDir": "./build/types",
+        "outDir": "./build",
+
+        "allowSyntheticDefaultImports": false,
+        "experimentalDecorators": true,
+        "pretty": true,
+        "watch": true,
+        "declaration": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "removeComments": true,
+        "preserveConstEnums": true
+    },
+
+    "exclude": [
+        "node_modules/",
+        "build/",
+        "**/*.spec.ts"
+    ]
+}

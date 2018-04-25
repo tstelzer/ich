@@ -7,9 +7,23 @@
     "type": "git",
     "url": "https://github.com/tstelzer/ich.git"
   },
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "test": "./node_modules/.bin/jest"
+  },
   "bugs": {
     "url": "https://github.com/tstelzer/ich/issues"
   },
   "author": "Timm Stelzer",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-jest": "22.4.3",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-2": "6.24.1",
+    "jest": "22.4.3",
+    "ts-jest": "22.4.4",
+    "typescript": "2.8.3",
+    "@types/jest": "22.2.3"
+  }
 }
