@@ -1,5 +1,31 @@
-Utils And Kitchen Sink.
+### Instalation
 
-## TODO:
+```bash
+yarn add ich
+```
 
-[] Actually add code.
+or
+
+```bash
+npm -i ich
+```
+
+```javascript
+import * as I from 'ich'
+```
+
+```javascript
+const I = require('ich')
+```
+
+### Testing
+
+```bash
+yarn test [--watch]
+```
+
+### Building
+
+```bash
+yarn build
+```
